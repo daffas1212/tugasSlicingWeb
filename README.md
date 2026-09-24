@@ -20,15 +20,15 @@ Website ini dibuat sebagai portofolio sederhana untuk menampilkan informasi prib
 # Tampilan
 
 ### Mobile
-![Mobile 1](./images/mobile-1.png)
-![Mobile 2](./images/mobile-2.png)
+![Mobile 1](./assets/mobile-1.png)
+![Mobile 2](./assets/mobile-2.png)
 
 ### Tablet
-![Tablet 1](./images/tablet-1.png)
-![Tablet 2](./images/tablet-2.png)
+![Tablet 1](./assets/tablet-1.png)
+![Tablet 2](./assets/tablet-2.png)
 
 ### Desktop
-![Desktop](./images/desktop.png)
+![Desktop](./assets/desktop.png)
 
 # Coba
 https://daffas1212.github.io/tugasSlicingWeb/
