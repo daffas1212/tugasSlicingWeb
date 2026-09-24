@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 60px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.judul-seksi {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.header-atas {
+  background-color: #fcfbff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.isi-header {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-nama {
+  color: #6c3ce9;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.menu-navigasi {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-navigasi a {
+  color: #0e0e0e;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: color 0.2s, background-color 0.2s;
+  outline: none;
+}
+
+.menu-navigasi a:hover,
+.menu-navigasi a:active {
+  color: #6c3ce9;
+}
+
+.tombol-menu {
+  display: none;
+  background: none;
+  border: none;
+  color: #000000;
+  font-size: 26px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.seksi-beranda {
+  background-color: #f4f4f4;
+  padding: 80px 20px;
+  margin-bottom: 40px;
+}
+
+.wadah-beranda {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.teks-beranda {
+  flex: 1;
+}
+
+.seksi-beranda h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.seksi-beranda p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.tombol-hubungi {
+  display: inline-block;
+  background-color: #6c3ce9;
+  color: #fff;
+  padding: 12px 26px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.tombol-hubungi:hover {
+  background-color: #5527c9;
+}
+
+.foto-beranda {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 260px;
+}
+
+.kotak-foto {
+  position: relative;
+  z-index: 2;
+  width: 285px;
+  height: 285px;
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.gambar-profil {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.seksi-tentang {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  margin-bottom: 20px;
+}
+
+.daftar-biodata {
+  margin-top: 15px;
+}
+
+.daftar-biodata li {
+  margin-bottom: 5px;
+}
+
+.seksi-pendidikan {
+  background-color: #f4f4f4;
+  padding: 60px 20px;
+}
+
+.kartu-pendidikan {
+  max-width: 700px;
+  margin: 0 auto 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-left: 4px solid #2c3e50;
+  border-radius: 4px;
+}
+
+.waktu-pengalaman {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.seksi-kontak {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.label-kontak {
+  color: #6c3ce9;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.judul-kontak {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.daftar-ikon-kontak {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.ikon-kontak {
+  width: 44px;
+  height: 44px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6c3ce9;
+  transition: all 0.2s;
+}
+
+.ikon-kontak:hover {
+  background-color: #6c3ce9;
+  color: #fff;
+  border-color: #6c3ce9;
+}
+
+/* Footer */
+.footer-bawah {
+  background-color: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Responsive*/
+@media (max-width: 768px) {
+  .tombol-menu {
+    display: block;
+  }
+
+  .menu-navigasi {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background-color: #2c3e50;
+    margin-top: 10px;
+  }
+
+  .menu-navigasi.terbuka {
+    display: flex;
+  }
+
+  .menu-navigasi li {
+    border-top: 1px solid #3b4b5c;
+  }
+
+  .menu-navigasi a {
+    display: block;
+    padding: 12px 0;
+    color: #ffffff;
+    border-radius: 0;
+  }
+
+  .menu-navigasi a:hover,
+  .menu-navigasi a:active {
+    color: #ffffff;
+    background-color: #6c3ce9;
+  }
+
+  .isi-header {
+    flex-wrap: wrap;
+  }
+
+  .wadah-beranda {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .foto-beranda {
+    order: -1;
+    min-height: 220px;
+  }
+}
+
+@media (max-width: 480px) {
+  .seksi-beranda h2 {
+    font-size: 24px;
+  }
+
+  .judul-seksi {
+    font-size: 20px;
+  }
+
+  .kartu-pendidikan {
+    padding: 15px;
+  }
+}
