@@ -17,7 +17,7 @@ Website ini dibuat sebagai portofolio sederhana untuk menampilkan informasi prib
 - CSS
 - JavaScript
 
-#tampilan
+# Tampilan
 1. Mobile
 <img width="729" height="623" alt="image" src="https://github.com/user-attachments/assets/bfa33b37-62a4-4aa7-a2c4-58869832a7aa" />
 <img width="688" height="621" alt="image" src="https://github.com/user-attachments/assets/d5d848b8-3dda-422c-95c8-6febecd9ff23" />
@@ -30,4 +30,6 @@ Website ini dibuat sebagai portofolio sederhana untuk menampilkan informasi prib
 3. Desktop
 <img width="875" height="539" alt="image" src="https://github.com/user-attachments/assets/77df4a85-7253-4394-95f4-cc8191f7fd42" />
 
+# Coba
+https://daffas1212.github.io/tugasSlicingWeb/
 
